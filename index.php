@@ -27,7 +27,7 @@ switch ($type) {
         $long = isset($_POST['long']) ? $_POST['long'] : "";        
         
         if ($email == "" || $lat == "" || $lat == "" || $long == "") {
-            echo json_encode(array("code" => "-1", "log" => "Some fields are missing"));
+            echo json_encode(array("log" => "Some fields are missing"));
             exit();
         } 
         
@@ -43,7 +43,7 @@ switch ($type) {
     case "get_loc":
         $email = isset($_POST['email']) ? $_POST['email'] : "";
         if ($email == "") {
-            echo json_encode(array("code" => "-1", "log" => "Some fields are missing"));
+            echo json_encode(array("log" => "Some fields are missing"));
             exit();
         } 
         
