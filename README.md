@@ -1,5 +1,7 @@
 # Erecruit-API
 
+Test URL: http://www.wellspringinfotech.com/erecruit/test.php
+
 1> Add Location: 
    URL-> http://www.wellspringinfotech.com/erecruit/index.php
    Post parameters ->
