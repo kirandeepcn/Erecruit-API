@@ -94,8 +94,6 @@ function createCandidate($c, $serviceRoot, $candidateData)
 	return $result;
 }
 
-
-
 $serviceRoot = "http://erecruittest.outsource.net/RestServices";
 $entityID = "c3309135-5e23-4abf-8170-9520de61da62";
 //$entityID = "00000000-0000-0000-0000-000000000e01";
@@ -104,7 +102,7 @@ $password = isset($_POST['password'])?$_POST['password']:"";
 $r = authenticate($serviceRoot, $email, $password, $entityID);
 //var_dump($r[1]);
 
-$r1 = validate($r[0],$serviceRoot, $email, $password, $entityID);
+//$r1 = validate($r[0],$serviceRoot, $email, $password, $entityID);
 //echo "<pre>";
 //print_r($r1[1]);
 $validateData = substr($r[1],strpos($r[1],"<?xml"));
