@@ -5,6 +5,7 @@ Test URL: http://www.wellspringinfotech.com/erecruit/test.php
 1> Add Location: 
    URL-> http://www.wellspringinfotech.com/erecruit/index.php
    Post parameters ->
+   -- type (value will be add_loc)
    -- email
    -- lat
    -- long
@@ -17,6 +18,7 @@ Test URL: http://www.wellspringinfotech.com/erecruit/test.php
 2> Get Location: 
    URL-> http://www.wellspringinfotech.com/erecruit/index.php
    Post parameters ->
+   -- type (value will be get_loc)
    -- email
    
    Response ->
